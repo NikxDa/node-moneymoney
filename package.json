@@ -1,0 +1,32 @@
+{
+    "name": "moneymoney",
+    "version": "1.0.0",
+    "description": "A MoneyMoney API for Node.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "keywords": [
+        "MoneyMoney",
+        "API",
+        "AppleScript"
+    ],
+    "exports": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "author": "NikxDa",
+    "license": "MIT",
+    "dependencies": {
+        "plist": "^3.1.0",
+        "run-applescript": "^7.0.0"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.0.0",
+        "@types/jest": "^29.5.11",
+        "@types/node": "^20.10.5",
+        "@types/plist": "^3.0.5",
+        "jest": "^29.7.0"
+    }
+}

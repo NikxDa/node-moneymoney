@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>accountNumber</key>
+            <string></string>
+            <key>attributes</key>
+            <dict />
+            <key>balance</key>
+            <array>
+                <array>
+                    <real>623.330000000002</real>
+                    <string>EUR</string>
+                </array>
+            </array>
+            <key>bankCode</key>
+            <string></string>
+            <key>currency</key>
+            <string>EUR</string>
+            <key>group</key>
+            <true />
+            <key>icon</key>
+            <data> iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c
+                6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEo
+                AAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAACQAAAAAQAAAJAAAAABAAOg
+                AQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAfgvaUgAA
+                AAlwSFlzAAAWJQAAFiUBSVIk8AAAAYRJREFUWAljZCATNDQ0cH38+HEaSDs/
+                P38WkP+NHKMYydFUXFys9f///9VArAXSz8jIeA2IQ3t7e6+Rah4TqRqKiooS
+                /v37dxpkubCwMAMIg9ggMZAcqeYRHQJIQR4PskRLS4vB2dkZbN/evXsZrl2D
+                e34hKVFClAOQg5yFhYXBycmJQVtbG8WzV69eZdi3bx/Dnz9/SIoSZhRTsHBA
+                wQoM4g1AKSlQcAcHBzPIy8tjqBQTE2NQUVFhePLkCcO3b99EgXoSraysnh0/
+                fvwChmIkAZwhgCvIQSGAD4BCgJQoweoAYoIcnyNAcsRGCUYUEBvkhBxAbJTA
+                Q4DcICfkEEJRAnYAcpATMpAa8sgFFyM0yKcCDeaihuEkmPEN6JBseBSgayws
+                LPwPEgPSYKnnz5+D6RUrVoBpUsX7+/ux2kVyUQy2nYrEqANGQ2A0BEZDYDQE
+                4OUzrOynYimL1yhY3TDgUYDRwIPVcnidT4Ek0OcougdfCKC7EMW5NOAMeAjQ
+                wE9DzEgAK1HfOW6wc38AAAAASUVORK5CYII= </data>
+            <key>indentation</key>
+            <integer>0</integer>
+            <key>name</key>
+            <string>All Accounts</string>
+            <key>owner</key>
+            <string></string>
+            <key>portfolio</key>
+            <false />
+            <key>type</key>
+            <string>Account group</string>
+            <key>uuid</key>
+            <string>17687f92-7ce1-41f8-a975-a3588b6a5618</string>
+        </dict>
+        <dict>
+            <key>accountNumber</key>
+            <string></string>
+            <key>attributes</key>
+            <dict />
+            <key>balance</key>
+            <array>
+                <array>
+                    <real>623.330000000002</real>
+                    <string>EUR</string>
+                </array>
+            </array>
+            <key>bankCode</key>
+            <string></string>
+            <key>currency</key>
+            <string>EUR</string>
+            <key>group</key>
+            <true />
+            <key>icon</key>
+            <data> iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c
+                6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEo
+                AAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAACQAAAAAQAAAJAAAAABAAOg
+                AQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAfgvaUgAA
+                AAlwSFlzAAAWJQAAFiUBSVIk8AAAAZpJREFUWAljZCAXpDVwMbz4Mw2sXYIl
+                i2FWwzdyjGIkRxODf4MWw/+/qxn+/9cC62dkvMbAyBzKsLHhGqnmMZGqgcG3
+                NoHh39/TIMtlJMUYQBjsEJAYSI5EQHwIwIL8P0M8yA57C0OG1ChfsHWzl21m
+                OHjiPMRqRoaFDCRECXEOQApyNlY2hpRIHwZHS0OIhVBy//HzDHOWb2H49fsX
+                AwMJUcKMYgo2DihY///fAAxnKVBw1+YnMOhrKmOoVJSVZDAz0GK4eus+w6fP
+                X0WBehIZ1O2fMdw6dAFDMZIA7hDAEeTsrKxI2jGZP3//ZiAlSrA7gIggx7Qa
+                VYTYKMGMAiKDHNU6TB6xUYIIATKDHNNqVBFCUQJxAFKQo2qnEQ8plzBCC4+p
+                wFTORSPrcBjLCCq6sxFRgK7Mt+Y/SGj19GawzJGbL8D0xAlAtwIBqeIMm1uw
+                2kV6UQy2nnrEqANGQ2A0BEZDYDQEEOUztOynXiFLwCRo3TDgUcCC7k5YLYcu
+                Ti1+aGYtilGDLwTQXYjiXBpwBjwEaOCnIWYkAERKwF9uamjHAAAAAElFTkSu QmCC </data>
+            <key>indentation</key>
+            <integer>1</integer>
+            <key>name</key>
+            <string>VR-Bank</string>
+            <key>owner</key>
+            <string></string>
+            <key>portfolio</key>
+            <false />
+            <key>type</key>
+            <string>Account group</string>
+            <key>uuid</key>
+            <string>fa25cc6b-417f-47a3-a0e2-33ba631cbdf0</string>
+        </dict>
+        <dict>
+            <key>accountNumber</key>
+            <string>DE02500105170137075030</string>
+            <key>attributes</key>
+            <dict />
+            <key>balance</key>
+            <array>
+                <array>
+                    <real>123.330000000002</real>
+                    <string>EUR</string>
+                </array>
+            </array>
+            <key>bankCode</key>
+            <string>INGDDEFF</string>
+            <key>currency</key>
+            <string>EUR</string>
+            <key>group</key>
+            <false />
+            <key>icon</key>
+            <data> iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c
+                6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEo
+                AAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAACQAAAAAQAAAJAAAAABAAOg
+                AQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAfgvaUgAA
+                AAlwSFlzAAAWJQAAFiUBSVIk8AAAAapJREFUWAntVj9Lw0AcfWmaKlas4ubq
+                32YS1K1TwUFQwamz4McQqeLipxD8AkLVWe3gUkVdQq27S41tEafWxPtdRK+5
+                q5BaXXq/KXf3e+9e3l3IA3T1uwNGRwPW8xN4b23DNxYB32Z9yY696oU3wHBg
+                +Ncw4/so5J9UbWoBqzsb8LxDBkipQF3MNRCLbeJ07ziMlQXQm7daDm1uz81g
+                aWEe42OjsCwrjP1x3Gw24dbqKN3cwSlXqLeBeNwOO2FKLFOZAzaXoc3XVpYx
+                nEzCNOU2CReaIAxhZ6cnUas3UH12B+F7Q3gsnomtMXHAn/mZg7+5tNblBLko
+                cos0soDgwnHbxcbfPNMRBsUvcxuVQkBw26OeeRtraCBwSV+SSkAI/rdDLUA7
+                oB3QDmgHVA6wJAPQ/7xXJXBxbpFXIYDFKFYUJnpV31wBt8grC6AMx4qSTK/q
+                i+uTW+SVo046e8vy4BYlGEoyqdQIBhKJyKmIbK+6LzgvXomRLIeHi1dRgJwJ
+                afUfQ6nsAAmoXJaRzh7xDAeukSJNgpYiFMXyewYvsDCaw8luKQJWt/aRAx+5
+                Unq4gPjWVwAAAABJRU5ErkJggg== </data>
+            <key>indentation</key>
+            <integer>2</integer>
+            <key>name</key>
+            <string>Giro</string>
+            <key>owner</key>
+            <string>John Doe</string>
+            <key>portfolio</key>
+            <false />
+            <key>type</key>
+            <string>Giro account</string>
+            <key>uuid</key>
+            <string>add0a47d-e4ba-494b-a097-916a18d2f50b</string>
+        </dict>
+        <dict>
+            <key>accountNumber</key>
+            <string>DE02500105170137075030</string>
+            <key>attributes</key>
+            <dict />
+            <key>balance</key>
+            <array>
+                <array>
+                    <real>500</real>
+                    <string>EUR</string>
+                </array>
+            </array>
+            <key>bankCode</key>
+            <string>INGDDEFF</string>
+            <key>currency</key>
+            <string>EUR</string>
+            <key>group</key>
+            <false />
+            <key>icon</key>
+            <data> iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c
+                6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEo
+                AAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAACQAAAAAQAAAJAAAAABAAOg
+                AQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAfgvaUgAA
+                AAlwSFlzAAAWJQAAFiUBSVIk8AAAAZtJREFUWAljYBgFIz0EGHEFQJLhZKkf
+                DL9qGBj+mwDVaP1nYODGpRabONDgr0DxawwMjGc4GNha5p3PfYZDHaZwtFFf
+                4D+Gf/MZ/jPwY8qSIcLI8JGJgSlx6bmi9ei6MUIA5PPvjD+vgSzX0FBlMDbR
+                ZxASFGBgYWVB14uX/+f3H4Z37z8wnD1zkeHGjdvAgGD4yPmfXQs9JJjQTQEH
+                O9RyTy9nBjExEZItB5kJcjBIL8gMkEdAHoJEKaqNGA6AxjnY56hKyeeBQhEC
+                wOkJxSAsDmDQAqkABTu1AJJZYLORzcVwACy1kxrnyIais2FmwcxGlsdwALIk
+                PdijDhgNgdEQGA2B0RDACAFoS4YBVJ9TC8DMgpmNbC6GA4CSwGYUA7gxgayQ
+                EjaoYQIFYLNhHBCNxQGMZ0ASoJYMtQDCLIjZyOZitLNADUhgkywK2IwCtwep
+                2STj+M/Wgmw5iI3RJgQJ0rNRygyyEB1cfr7zhpmE76K/DP+4QC4EYlDziA1d
+                HT4+KMEB8UVGBsZNnAzs4YvOF5zGp35UbuSGAAAcd3oREsZw4QAAAABJRU5E rkJggg== </data>
+            <key>indentation</key>
+            <integer>2</integer>
+            <key>name</key>
+            <string>Geschäftsanteile</string>
+            <key>owner</key>
+            <string>John Doe</string>
+            <key>portfolio</key>
+            <false />
+            <key>type</key>
+            <string>Savings account</string>
+            <key>uuid</key>
+            <string>6033c4a2-1eb1-4c9f-aa17-5497fcddb2eb</string>
+        </dict>
+    </array>
+</plist>
