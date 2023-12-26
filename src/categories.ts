@@ -9,7 +9,7 @@ type Budget = {
 type CategoryDefault =
     | {
           default: true;
-          budget: never;
+          budget: {};
       }
     | {
           default: false;

@@ -1,6 +1,7 @@
 import plist from "plist";
 import { runAppleScript } from "run-applescript";
 import DatabaseLockedError from "./errors/DatabaseLockedError.js";
+import MoneyMoneyError from "./errors/MoneyMoneyError.js";
 
 export const tellMoneyMoney = async <T = never>(command: string) => {
     const script = `
@@ -29,15 +30,11 @@ export const checkDatabaseUnlocked = async () => {
 };
 
 export const handleAppleScriptError = (err: any) => {
-    if (!(err instanceof Error)) {
-        throw new Error("Failed to execute AppleScript.");
-    }
-
-    if (err.message.includes("Locked database")) {
+    if (err instanceof Error && err.message.includes("Locked database")) {
         throw new DatabaseLockedError();
     }
 
-    throw new Error("Unknown error.");
+    throw new MoneyMoneyError("Unknown error.");
 };
 
 export const formatDate = (date: Date) => {
@@ -90,5 +87,5 @@ export const formatAppleScript = (
         result += strings[strings.length - 1];
     }
 
-    return result.replaceAll(/[\s]+/g, " ");
+    return result.replaceAll(/[\s]+/g, " ").trim();
 };
