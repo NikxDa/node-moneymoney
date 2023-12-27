@@ -1,7 +1,19 @@
+import { execFile } from "child_process";
 import plist from "plist";
-import { runAppleScript } from "run-applescript";
+import { promisify } from "util";
 import DatabaseLockedError from "./errors/DatabaseLockedError.js";
 import MoneyMoneyError from "./errors/MoneyMoneyError.js";
+
+const execFileAsync = promisify(execFile);
+
+export async function runAppleScript(script: string) {
+    if (process.platform !== "darwin") {
+        throw new Error("AppleScript is only available on macOS.");
+    }
+
+    const { stdout } = await execFileAsync("osascript", ["-e", script]);
+    return stdout?.trim() ?? ""; // Need to do this because of Bun issue #7850
+}
 
 export const tellMoneyMoney = async <T = never>(command: string) => {
     const script = `
