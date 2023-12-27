@@ -6,7 +6,9 @@
 
 Install this package via NPM:
 
-> $ npm i --save moneymoney
+```bash
+$ npm i --save moneymoney
+```
 
 ## Features
 
