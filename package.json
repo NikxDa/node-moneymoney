@@ -15,7 +15,8 @@
     "exports": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "files": [
-        "/dist"
+        "/dist",
+        "README.md"
     ],
     "author": "NikxDa",
     "license": "MIT",
