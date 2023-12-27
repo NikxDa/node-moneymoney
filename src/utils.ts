@@ -32,7 +32,7 @@ export const tellMoneyMoney = async <T = never>(command: string) => {
 export const checkDatabaseUnlocked = async () => {
     try {
         await tellMoneyMoney(
-            `export transactions from date "2024-01-01" as "plist"`
+            `export transactions from date "9999-01-01" as "plist"`
         );
 
         return true;
