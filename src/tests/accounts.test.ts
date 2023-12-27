@@ -1,7 +1,7 @@
 import { expect, mock, test } from "bun:test";
 import { AccountType, getAccounts } from "../accounts";
 
-mock.module("run-applescript", () => ({
+mock.module("../utils", () => ({
     runAppleScript: () =>
         Bun.file("./src/tests/data/exportAccounts.data.xml").text(),
 }));

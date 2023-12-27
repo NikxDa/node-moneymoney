@@ -9,7 +9,7 @@ import {
 
 describe("checkDatabaseUnlocked", () => {
     test("returns true if there is a result", async () => {
-        mock.module("run-applescript", () => ({
+        mock.module("../utils", () => ({
             runAppleScript: () =>
                 Bun.file(
                     "./src/tests/data/exportTransactionsEmpty.data.xml"
@@ -21,7 +21,7 @@ describe("checkDatabaseUnlocked", () => {
     });
 
     test("returns false if there is an error", async () => {
-        mock.module("run-applescript", () => ({
+        mock.module("../utils", () => ({
             runAppleScript: () => {
                 throw new DatabaseLockedError();
             },

@@ -1,21 +1,21 @@
 import { formatAppleScript, tellMoneyMoney } from "./utils.js";
 
 export type Transaction = {
-    accountNumber: string;
+    accountNumber?: string;
     accountUuid: string;
     amount: number;
-    bankCode: string;
+    bankCode?: string;
     booked: boolean;
     bookingDate: Date;
-    bookingText: string;
+    bookingText?: string;
     categoryUuid: string;
     checkmark: boolean;
-    creditorId: string;
+    creditorId?: string;
     currency: string;
     id: number;
-    mandateReference: string;
+    mandateReference?: string;
     name: string;
-    purpose: string;
+    purpose?: string;
     valueDate: Date;
 };
 
@@ -36,7 +36,16 @@ export const getTransactions = async (options: GetTransactionsOptions) => {
             as "plist"
     `;
 
-    return tellMoneyMoney<Transaction[]>(exportCommand);
+    type GetTransactionsResponse = {
+        creator: string;
+        transactions: Transaction[];
+    };
+
+    const response = await tellMoneyMoney<GetTransactionsResponse>(
+        exportCommand
+    );
+
+    return response.transactions;
 };
 
 type AddTransactionOptions = {

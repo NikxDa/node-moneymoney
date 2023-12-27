@@ -1,7 +1,7 @@
 import { expect, mock, test } from "bun:test";
 import { getCategories } from "../categories";
 
-mock.module("run-applescript", () => ({
+mock.module("../utils", () => ({
     runAppleScript: () =>
         Bun.file("./src/tests/data/exportCategories.data.xml").text(),
 }));

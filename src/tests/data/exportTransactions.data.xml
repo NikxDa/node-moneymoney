@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>creator</key>
+        <string>MoneyMoney 2.4.32</string>
+        <key>transactions</key>
+        <array>
+            <dict>
+                <key>accountUuid</key>
+                <string>2820cdae-46f4-4570-b6f8-f3016ef31aa4</string>
+                <key>amount</key>
+                <real>-3.4500000000000002</real>
+                <key>booked</key>
+                <false />
+                <key>bookingDate</key>
+                <date>2023-12-27T12:00:00Z</date>
+                <key>bookingText</key>
+                <string>Apple Pay</string>
+                <key>categoryUuid</key>
+                <string>a2fea395-d50a-41f9-913a-4a73dec89e72</string>
+                <key>checkmark</key>
+                <false />
+                <key>currency</key>
+                <string>EUR</string>
+                <key>id</key>
+                <integer>6492</integer>
+                <key>name</key>
+                <string>Payee Name 1</string>
+                <key>purpose</key>
+                <string>Amount: -3,25 CHF, Conversion Rate: 0,9420</string>
+                <key>valueDate</key>
+                <date>2023-12-27T12:00:00Z</date>
+            </dict>
+            <dict>
+                <key>accountUuid</key>
+                <string>2820cdae-46f4-4570-b6f8-f3016ef31aa4</string>
+                <key>amount</key>
+                <real>-100.00</real>
+                <key>booked</key>
+                <false />
+                <key>bookingDate</key>
+                <date>2023-12-27T12:00:00Z</date>
+                <key>categoryUuid</key>
+                <string>a2fea395-d50a-41f9-913a-4a73dec89e72</string>
+                <key>checkmark</key>
+                <false />
+                <key>currency</key>
+                <string>EUR</string>
+                <key>id</key>
+                <integer>6489</integer>
+                <key>name</key>
+                <string>Online Order</string>
+                <key>valueDate</key>
+                <date>2023-12-27T12:00:00Z</date>
+            </dict>
+            <dict>
+                <key>accountNumber</key>
+                <string>DE02500105170137075030</string>
+                <key>accountUuid</key>
+                <string>add0a47d-e4ba-494b-a097-916a18d2f50b</string>
+                <key>amount</key>
+                <real>-13</real>
+                <key>bankCode</key>
+                <string>INGDDEFF</string>
+                <key>booked</key>
+                <false />
+                <key>bookingDate</key>
+                <date>2023-12-27T12:00:00Z</date>
+                <key>bookingText</key>
+                <string>Lastschrift</string>
+                <key>categoryUuid</key>
+                <string>a2fea395-d50a-41f9-913a-4a73dec89e72</string>
+                <key>checkmark</key>
+                <false />
+                <key>creditorId</key>
+                <string>DE12346789098765</string>
+                <key>currency</key>
+                <string>EUR</string>
+                <key>id</key>
+                <integer>6474</integer>
+                <key>mandateReference</key>
+                <string>M098767890876789</string>
+                <key>name</key>
+                <string>Recurring Purchase</string>
+                <key>purpose</key>
+                <string>Electricity</string>
+                <key>valueDate</key>
+                <date>2023-12-27T12:00:00Z</date>
+            </dict>
+        </array>
+    </dict>
+</plist>
