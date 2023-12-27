@@ -58,6 +58,16 @@ describe("formatAppleScript", () => {
         const formattedString = formatAppleScript`   a    \t\tb\n\n  c   `;
         expect(formattedString).toBe("a b c");
     });
+
+    test("keeps previous lines before an undefined segment", () => {
+        const formattedString = formatAppleScript`
+            line1
+                line2 ${undefined}
+                line3 ${123}
+        `;
+
+        expect(formattedString).toBe("line1 line3 123");
+    });
 });
 
 describe("handleAppleScriptError", () => {

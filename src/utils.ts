@@ -70,20 +70,31 @@ export const formatAppleScript = (
         if (i < values.length) {
             const value = values[i];
 
+            // Need to make sure to only remove the current line if an undefined value is encountered
+            const previousStringLines = strings[i].split("\n");
+
+            if (previousStringLines.length > 1) {
+                for (let i = 0; i < previousStringLines.length - 1; i++)
+                    result += `${previousStringLines[i]}\n`;
+            }
+
+            const lastLine =
+                previousStringLines[previousStringLines.length - 1];
+
             switch (typeof value) {
                 case "undefined":
                     // If the value is undefined, don't add the previous string, either
                     break;
                 case "string":
-                    result += strings[i];
+                    result += lastLine;
                     result += `"${value}"`;
                     break;
                 case "number":
-                    result += strings[i];
+                    result += lastLine;
                     result += value;
                     break;
                 case "object":
-                    result += strings[i];
+                    result += lastLine;
                     result += `"${formatDate(value)}"`;
                     break;
                 default:
