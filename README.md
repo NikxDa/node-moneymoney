@@ -2,7 +2,7 @@
 
 > An AppleScript-based API for working with [MoneyMoney](https://moneymoney-app.com) on macOS, written in TypeScript.
 
-<p align="center">
+<p>
     <img src="https://badgers.space/github/checks/NikxDa/node-moneymoney?label=tests" />
     <img src="https://badgers.space/npm/version/moneymoney" />
 </p>
