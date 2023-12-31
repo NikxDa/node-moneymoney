@@ -68,7 +68,7 @@ export const addTransaction = async (options: AddTransactionOptions) => {
             category ${options.category}
     `;
 
-    tellMoneyMoney(addCommand);
+    return tellMoneyMoney<void>(addCommand);
 };
 
 type SetTransactionOptions = {
@@ -77,7 +77,7 @@ type SetTransactionOptions = {
     comment?: string;
 };
 
-export const setTransaction = async (options: SetTransactionOptions) => {
+export const setTransaction = (options: SetTransactionOptions) => {
     const setCommand = formatAppleScript`
         set transaction
             id ${options.id}
@@ -91,5 +91,5 @@ export const setTransaction = async (options: SetTransactionOptions) => {
             comment to ${options.comment}
     `;
 
-    tellMoneyMoney(setCommand);
+    return tellMoneyMoney<void>(setCommand);
 };

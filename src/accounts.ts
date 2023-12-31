@@ -28,6 +28,6 @@ export type Account = {
     uuid: string;
 };
 
-export const getAccounts = async () => {
+export const getAccounts = () => {
     return tellMoneyMoney<Account[]>("export accounts");
 };

@@ -26,6 +26,6 @@ export type Category = CategoryDefault & {
     uuid: string;
 };
 
-export const getCategories = async () => {
+export const getCategories = () => {
     return tellMoneyMoney<Category[]>("export categories");
 };
