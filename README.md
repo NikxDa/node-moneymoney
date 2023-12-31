@@ -25,7 +25,7 @@ The whole code is fully typed, making it easy to work with return types and see 
 | Export Categories         | ✅               | ✅           |
 | Export Transactions       | ✅               | ✅           |
 | Export Portfolio          | ✅               | 🚧           |
-| Create Bank Transfer      | ✅               | 🚧           |
+| Create Bank Transfer      | ✅               | ✅           |
 | Create Batch Transfer     | ✅               | 🚧           |
 | Create Direct Debit       | ✅               | 🚧           |
 | Create Batch Direct Debit | ✅               | 🚧           |
