@@ -10,6 +10,7 @@ export type Transaction = {
     bookingText?: string;
     categoryUuid: string;
     checkmark: boolean;
+    comment?: string;
     creditorId?: string;
     currency: string;
     id: number;
