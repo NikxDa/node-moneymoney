@@ -1,6 +1,6 @@
 {
     "name": "moneymoney",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "A MoneyMoney API for Node.js",
     "scripts": {
         "test": "bun test",
@@ -26,6 +26,7 @@
     "devDependencies": {
         "@types/bun": "^1.0.0",
         "@types/node": "^20.10.5",
-        "@types/plist": "^3.0.5"
+        "@types/plist": "^3.0.5",
+        "typescript": "^5.9.3"
     }
 }
