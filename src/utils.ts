@@ -43,9 +43,16 @@ export const checkDatabaseUnlocked = async () => {
 
 export const handleAppleScriptError = (err: any) => {
     if (err instanceof Error && err.message.includes("Locked database")) {
-        throw new DatabaseLockedError();
+        if (err.message.includes("Locked database")) {
+            throw new DatabaseLockedError();
+        } else {
+            throw new MoneyMoneyError(err.message ?? "Unknwon error.")
+        }
+    } else if (typeof err === "string") {
+        throw new MoneyMoneyError(err);
     }
 
+    console.error("An unexpected error occured during AppleScript execution: " + err)
     throw new MoneyMoneyError("Unknown error.");
 };
 
