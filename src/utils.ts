@@ -4,6 +4,8 @@ import { promisify } from "util";
 import DatabaseLockedError from "./errors/DatabaseLockedError.js";
 import MoneyMoneyError from "./errors/MoneyMoneyError.js";
 
+const MAX_STDOUT_BUFFER = 5 * 1024 * 1024; // 5 MB
+
 const execFileAsync = promisify(execFile);
 
 export async function runAppleScript(script: string) {
@@ -11,7 +13,7 @@ export async function runAppleScript(script: string) {
         throw new Error("AppleScript is only available on macOS.");
     }
 
-    const { stdout } = await execFileAsync("osascript", ["-e", script]);
+    const { stdout } = await execFileAsync("osascript", ["-e", script], { maxBuffer: MAX_STDOUT_BUFFER });
     return stdout?.trim() ?? ""; // Need to do this because of Bun issue #7850
 }
 
